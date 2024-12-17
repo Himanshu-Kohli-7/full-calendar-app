@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 
-import { Draggable } from "@fullcalendar/interaction"; // Import Draggable from FullCalendar
+import { Draggable } from "@fullcalendar/interaction";
 
 const EventList = () => {
-  // Initialize draggable events
+  // draggable event
   useEffect(() => {
     const draggable = new Draggable(document.querySelector("#event-list"), {
       itemSelector: ".event-item",
